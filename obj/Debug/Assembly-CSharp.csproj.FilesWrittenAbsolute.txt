@@ -1,0 +1,17 @@
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/obj/Debug/Assembly-CSharp.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/UnityEngine.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/UnityEditor.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Mono.Cecil.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Unity.DataContract.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/majian/Desktop/UnityCode/SaoLei/SaoLei2D/Temp/bin/Debug/Mono.Cecil.Mdb.dll
