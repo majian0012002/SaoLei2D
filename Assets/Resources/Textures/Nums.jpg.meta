@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 995ea7cb3fb2b4e009d13e81f305ffde
-timeCreated: 1483974004
+timeCreated: 1484053288
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -14,6 +14,18 @@ TextureImporter:
     21300014: Nums_7
     21300016: Nums_8
     21300018: Nums_9
+    21300020: nums_0
+    21300022: nums_1
+    21300024: nums_2
+    21300026: nums_3
+    21300028: nums_4
+    21300030: nums_5
+    21300032: nums_6
+    21300034: nums_7
+    21300036: nums_8
+    21300038: nums_9
+    21300040: nums_10
+    21300042: nums_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -63,132 +75,158 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Nums_0
+      name: nums_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        y: 724.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_1
+      name: nums_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 150
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 256
+        y: 724.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_2
+      name: nums_2
       rect:
         serializedVersion: 2
-        x: 240
-        y: 150
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 512
+        y: 724.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_3
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 150
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Nums_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 150
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Nums_5
+      name: nums_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        y: 483.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_6
+      name: nums_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 256
+        y: 483.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_7
+      name: nums_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 512
+        y: 483.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_8
+      name: nums_6
       rect:
         serializedVersion: 2
-        x: 360
-        y: 0
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 242.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Nums_9
+      name: nums_7
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 120
-        height: 150
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 256
+        y: 242.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nums_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 242.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nums_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nums_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nums_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1.5
+        width: 256
+        height: 241.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

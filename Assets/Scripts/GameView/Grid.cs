@@ -11,41 +11,40 @@ public class Grid : MonoBehaviour {
 	Color startCol;
 	//鼠标覆盖后的颜色
 	Color hoverCol;
+	//鼠标点击后的颜色
+	Color clickCol;
 	//本格是否是地雷
 	bool isLei = false;
 	//本格的数字
 	int currentNum = 0;
+	//SpriteRender组件
+	SpriteRenderer spr;
 
-	//上层格子背景
-	public GameObject normal;
-	//底层格子背景
-	public GameObject clicked;
-	//格子数字对象
-	public GameObject num;
-	//格子地雷对象
-	public GameObject dilei;
-
+	//上层格子
+	public Sprite foreground;
+	//内容物体
+	public GameObject content;
 
 	// Use this for initialization
 	void Start () {
-		normal.SetActive (true);
-		clicked.SetActive (false);
-		num.SetActive (false);
-		dilei.SetActive (false);
-		startCol = normal.GetComponent<SpriteRenderer> ().color;
-		hoverCol = new Color (0.203f,0.102f,0.624f,1f);
+		startCol = new Color (0.203f,0.102f,0.624f,1f);
+		hoverCol = new Color (0.424f,0.318f,0.859f,1f);
+		clickCol = new Color (1f,1f,1f,1f);
+		spr = this.GetComponent<SpriteRenderer> ();
+		spr.sprite = foreground;
+		spr.color = startCol;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//mac平台
+		/**
 		if (Application.platform == RuntimePlatform.OSXEditor) {
 			if (Input.GetMouseButtonDown (0)) {		//点击鼠标左键
 				Vector3 mousePosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-				RaycastHit2D hit = Physics2D.Raycast (new Vector2(mousePosition.x,mousePosition.y),
-					Vector2.zero);
+				Collider2D col = Physics2D.OverlapPoint (mousePosition,(1 << LayerMask.NameToLayer("Grid")));
 				//如果射线碰撞到了grid
-				if (hit.collider != null && hit.collider.gameObject.tag.Equals ("Grid")) {
+				if (col != null && col.gameObject.tag.Equals ("Grid")) {
 					normal.GetComponent<SpriteRenderer> ().color = startCol;
 					Debug.Log ("Touch!!!!");
 					normal.SetActive (false);
@@ -54,34 +53,45 @@ public class Grid : MonoBehaviour {
 				}
 			}
 		}
+		**/
 
 	}
 
 	//鼠标覆盖事件
 	void OnMouseOver() {
-		normal.GetComponent<SpriteRenderer> ().color = hoverCol;
+		spr.color = hoverCol;
 	}
 
 	//鼠标离焦事件
 	void OnMouseExit() {
-		normal.GetComponent<SpriteRenderer> ().color = startCol;
+		spr.color = startCol;
+	}
+
+	//鼠标点击事件
+	void OnMouseDown() {
+		GenerateTarget ();
+		spr.color = clickCol;
 	}
 
 	//鼠标点击后区别显示数字还是地雷
 	void GenerateTarget () {
 		if (isDilei ()) {
-			dilei.SetActive (true);
+			content.SetActive (true);
+			content.GetComponent<Content> ().isDilei = true;
+			content.GetComponent<Content> ().SetSprite ();
+			this.gameObject.SetActive (false);
 		} else {
 			getDisplaynum ();
-			num.SetActive (true);
-			DisplayNum dis = num.GetComponent<DisplayNum> ();
-			dis.index = currentNum;
+			content.SetActive (true);
+			content.GetComponent<Content> ().num = currentNum;
+			content.GetComponent<Content> ().SetSprite ();
+			this.gameObject.SetActive (false);
 		}
 	}
 
 	//确定是否是地雷
 	bool isDilei () {
-		return false;
+		return true;
 	}
 
 	//计算应该显示的数字
